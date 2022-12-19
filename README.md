@@ -1,22 +1,5 @@
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -33,10 +16,10 @@
     <img src="src/assets/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Petlover</h3>
 
   <p align="center">
-    project_description
+    This is a Codecademy project on the Front-End Engineer Careet Path called Petlover.  The goal of this project was to practice using React Router to add client-side routing to a React Application.
     <br />
     <a href="https://github.com/jeremaquai/AdoptAPet"><strong>Explore the docs »</strong></a>
     <br />
@@ -82,9 +65,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]]()
+[![All Pets Screen Shot][pets-screenshot]]()
+[![Search Results Screen Shot][search-screenshot]]()
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `jeremaquai`, `AdoptAPet`, `twitter_handle`, `jeremiah-sparks-0ba36a239`, `gmail`, `jeremaquai`, `project_title`, `project_description`
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -92,9 +77,9 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [Next.js](https://nextjs.org/)
+* [Node.js](https://nodejs.org/en/)
 * [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
+* [React Router](https://reactrouter.com/en/main)
 * [Angular](https://angular.io/)
 * [Svelte](https://svelte.dev/)
 * [Laravel](https://laravel.com)
@@ -227,4 +212,6 @@ Project Link: [https://github.com/jeremaquai/AdoptAPet](https://github.com/jerem
 [license-url]: https://github.com/jeremaquai/AdoptAPet/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/jeremiah-sparks-0ba36a239
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: src/assets/petloverScreenShot.png
+[pets-screenshot]: src/assets/petsScreenShot.png
+[search-screenshot]: src/assets/searchScreenShot.png 
