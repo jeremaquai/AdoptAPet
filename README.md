@@ -77,14 +77,12 @@
 
 ### Built With
 
+* [npm](https://www.npmjs.com/package/nopm)
 * [Node.js](https://nodejs.org/en/)
 * [React.js](https://reactjs.org/)
 * [React Router](https://reactrouter.com/en/main)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Mock Service Worker](https://mswjs.io/docs/)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -93,12 +91,11 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+
 * npm
   ```sh
   npm install npm@latest -g
@@ -106,18 +103,18 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+
+1. Clone the repo
    ```sh
    git clone https://github.com/jeremaquai/AdoptAPet.git
    ```
-3. Install NPM packages
+2. Install NPM dependancies packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Start the application locally
+   ```sh
+   npm start
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -127,9 +124,11 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+_For help with npm, please refer to the [Documentation](https://docs.npmjs.com/)_
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For help with React, please refer to the [Documentation](https://reactjs.org/docs/getting-started.html)_
+
+_For help with React Router, please refer to the [Documentation](https://reactrouter.com/en/main)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -138,10 +137,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [x] Search Bar
+- [x] Nav Bar
+- [x] Home Page
+    - [x] Pet Details Page
+    - [x] Search Page
+    - [x] Pet Details Not Found Page
 
 See the [open issues](https://github.com/jeremaquai/AdoptAPet/issues) for a full list of proposed features (and known issues).
 
@@ -179,7 +180,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - jeremaquai@gmail.com
+Jeremiah Sparks  - jeremaquai@gmail.com
 
 Project Link: [https://github.com/jeremaquai/AdoptAPet](https://github.com/jeremaquai/AdoptAPet)
 
@@ -190,9 +191,8 @@ Project Link: [https://github.com/jeremaquai/AdoptAPet](https://github.com/jerem
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [Codecademy](https://www.codecademy.com)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
