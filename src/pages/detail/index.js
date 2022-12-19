@@ -8,7 +8,7 @@ const PetDetailsPage = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
   let { type, id } = useParams();
-  console.log(id);
+  console.log(type);
    // <--- Update me!
 
   useEffect(() => {
